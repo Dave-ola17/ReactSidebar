@@ -16,7 +16,7 @@ function Home() {
         {name: 'Settings', id: 6, link: '/', icon: FiSettings},
         {name: 'Profile', id: 7, link: '/', icon: CgProfile},
     ]
-    const [open, setOpen] = useState(true)
+    const [open, setOpen] = useState(false)
   return (
     <section className="flex gap-6">
         <div className={`bg-[#0e0e0e] min-h-screen ${open ? 'w-72': 'w-16' } duration-500 text-gray-100 px-4`}>
