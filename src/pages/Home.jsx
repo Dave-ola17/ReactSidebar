@@ -38,7 +38,7 @@ function Home() {
                                     ${open && 'hidden'} absolute left-48 bg-white whitespace-pre font-semibold 
                                     text-gray-900 rounded-md drop-shadow-lg px-0 py-0 w-0 overflow-hidden group-hover:px-2
                                      group-hover:py-2 group-hover:left-14 group-hover:duration-300  group-hover:w-fit `}>
-                                        
+
                                     {menu.name}
                                 </h2>
                             </a>
@@ -49,7 +49,7 @@ function Home() {
             </div>
         </div>
        <div className="m-3 text-xl text-gray-900 font-semibold">
-        tailwindCss
+        tailwindCss, React.js, useState hook & Map function 
        </div>
     </section>
   )
